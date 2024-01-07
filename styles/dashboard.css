@@ -80,6 +80,7 @@ body {
   border-radius: 16px;
   color: #fff;
   margin: 120px auto 0;
+  display: flex;
   /* margin-left: auto;
   margin-right: auto; */
 }
@@ -91,26 +92,57 @@ body {
   font-weight: 900;
   line-height: 88px;
   letter-spacing: 7.04px;
-  padding: 126px 552px 24px 126px;
+  padding: 126px 94px 24px 126px;
 }
 .party-text {
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  padding: 0 497px 0 126px;
+  padding: 0 45px 0 126px;
 }
 
-.btn-join{
-    height: 50px;
-    width: 120px;
-    padding: 5px;
-    background-color:#f00;
-    color: #fff;
-    border: 0;
-    font-size: 20px;
-    margin: 48px 0 0 126px;
+.btn-join {
+  height: 50px;
+  width: 140px;
+  padding: 8px;
+  background-color: #f00;
+  color: #fff;
+  border: 0;
+  font-size: 20px;
+  margin: 48px 0 0 126px;
+  cursor: pointer;
+  border-radius: 16px;
+}
 
+.midnight-party img {
+  padding: 68px 138px 67px 0px;
+}
+
+/* Party Venue Styles  */
+
+.party-venue {
+  width: 1300px;
+  height: 600px;
+  margin: 120px auto;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
+  border-radius: 16px;
+  color: #070211;
+  font-family: Inter;
+  padding-top: 100px;
+  line-height: 1.5;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 48px;
+}
+
+.party-venue .txt-orng {
+  color: #f00;
 }
 
 /* Footer Section */
