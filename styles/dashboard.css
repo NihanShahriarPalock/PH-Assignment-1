@@ -102,7 +102,7 @@ body {
   padding: 0 45px 0 126px;
 }
 
-.btn-join {
+.btn-join, .btn-join-venue {
   height: 50px;
   width: 140px;
   padding: 8px;
@@ -139,10 +139,14 @@ body {
   font-size: 32px;
   font-weight: 600;
   margin-bottom: 48px;
+  /* align-items: center; */
 }
 
 .party-venue .txt-orng {
   color: #f00;
+}
+.btn-join-venue{
+  margin-left: -3%;
 }
 
 /* Round Circle Image Section */
@@ -256,8 +260,6 @@ body {
   bottom: 40px;
 }
 
-.img-bottom {
-}
 
 /* Gallery Styles */
 
@@ -288,6 +290,7 @@ body {
   margin-bottom: 48px;
 }
 .gallery-images div {
+  
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -295,8 +298,26 @@ body {
 }
 
 .gallery-images div img {
-  max-width: 70%;
+ transition: all 1s;
+ 
+ 
 }
+
+.gallery-images div img:hover {
+  /* max-width: 70%; */
+  /* height: 320px; */
+  transform: rotate(30deg);
+  /* border-color: 5px solid  #f00; */
+  cursor: pointer;
+  border: 8px solid #f00;
+  border-radius: 25px;
+}
+
+
+
+
+
+/*  SUBSCRIBE SECTION STYLES  */
 
 .subscribe-section {
   width: 1300px;
@@ -360,7 +381,11 @@ body {
   color: #ffffff;
   margin-left: 0px;
   font-size: 20px;
+  cursor: pointer;
 }
+
+
+
 /* Footer Section */
 
 footer {
@@ -376,8 +401,6 @@ footer {
 
 .footer-top {
   display: flex;
-  /* height: 34%; */
-  /* padding: 10px; */
   padding-bottom: 5%;
   justify-content: space-between;
   /* margin:1.5rem */
@@ -397,7 +420,7 @@ footer {
 
 .copyright {
   display: flex;
-  padding: 5% 5% 0;
+  padding: 5% 0 0;
   justify-content: space-between;
 }
 
@@ -406,7 +429,7 @@ footer {
   color: red;
   font-size: 24px;
   border: 0;
-  padding: auto;
+  /* padding: auto 0 ; */
   cursor: pointer;
 }
 
